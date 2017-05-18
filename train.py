@@ -33,7 +33,7 @@ def train():
               optimizer=opt)
     d.trainable = False
     dcgan = Sequential([g, d])
-    opt= Adam(lr=lr,beta_1=B1)
+    opt= Adam(lr=LR,beta_1=B1)
     dcgan.compile(loss='binary_crossentropy',
                   metrics=['accuracy'],
                   optimizer=opt)
