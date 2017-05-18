@@ -3,7 +3,7 @@
 import os, sys
 from keras.datasets import mnist
 from PIL import Image
-from dcgan_models import discriminator, generator
+from model import discriminator, generator
 from keras.models import Sequential
 from keras.optimizers import SGD, Adam
 from keras.layers import Activation
