@@ -15,9 +15,6 @@ B1 = 0.5  # momentum term
 GENERATED_IMAGE_PATH = 'images/'
 GENERATED_MODEL_PATH = 'models/'
 
-def show_progress(e,i,g0,d0,g1,d1):
-    sys.stdout.write("\repoch: %d, batch: %d, g_loss: %f, d_loss: %f, g_accuracy: %f, d_accuracy: %f" % (e,i,g0,d0,g1,d1))
-    sys.stdout.flush()
 def train():
     (X_train, y_train), (_, _) = mnist.load_data()
     # normalize images
