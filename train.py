@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import os, sys
+import os
 from keras.datasets import mnist
 from PIL import Image
 from model import discriminator, generator
@@ -9,7 +9,7 @@ from keras.optimizers import SGD, Adam
 from visualizer import *
 
 BATCH_SIZE = 32
-NUM_EPOCH = 100
+NUM_EPOCH = 50
 LR = 0.0002  # initial learning rate
 B1 = 0.5  # momentum term
 GENERATED_IMAGE_PATH = 'images/'
