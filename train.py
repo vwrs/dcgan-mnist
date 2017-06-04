@@ -47,7 +47,7 @@ def train():
     print("-------------------")
     print("Total epoch:", NUM_EPOCH, "Number of batches:", num_batches)
     print("-------------------")
-    z_pred = np.array([np.random.uniform(-1,1,100) for _ in range(BATCH_SIZE)])
+    z_pred = np.array([np.random.uniform(-1,1,100) for _ in range(49)])
     y_g = [1]*BATCH_SIZE
     y_d_true = [1]*BATCH_SIZE
     y_d_gen = [0]*BATCH_SIZE
