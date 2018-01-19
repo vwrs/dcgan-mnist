@@ -7,8 +7,8 @@ keras implementation of [Unsupervised Representation Learning with Deep Convolut
 - image\_data\_format: channels\_last
 
 ### result
-train process(epoch 1 to 50):
+training progress(epoch 1 to 50):
 
-![train process](https://github.com/vwrs/dcgan-mnist/blob/media/dcgan_mnist_epoch1to50.gif)
+![training progress](https://github.com/vwrs/dcgan-mnist/blob/media/dcgan_mnist_epoch1to50.gif)
 
 
